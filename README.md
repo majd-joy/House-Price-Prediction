@@ -16,7 +16,11 @@ We analyzed **20,000+ census records** including location, demographics, and hou
 📊 [California Housing Prices (Kaggle)](https://www.kaggle.com/)  
 - 20,640 records  
 - Features: `Latitude`, `Longitude`, `Median Income`, `Total Rooms`, `Ocean Proximity`  
-- Target: `Median House Value` 💰  
+- Target: `Median House Value` 💰
+
+---
+## 📑 Full Report
+👉 [Read the detailed analysis here](./docs/README.md)
 
 ---
 
@@ -28,45 +32,6 @@ flowchart TD
     B --> C[Feature Engineering]
     C --> D[Linear Regression Model]
     D --> E[Evaluation & Insights]
-
----
-
-🧹 Missing values handled with median imputation
-
-📉 Outliers treated using IQR method
-
-🔢 Encoded categorical ocean_proximity
-
-⚖️ Feature scaling via Z-score standardization
-
-🏗️ Engineered feature: avg_rooms_per_household
-📊 Results
-
-R² = 0.598 → Model explains ~60% of housing price variance
-
-Top predictor: Median Income (+$56k per income unit)
-
-🌍 Geographic features show non-linear spatial effects
-
-📈 Example Visualization:
-
-🎥 Demo
-
-📹 YouTube Presentation
-
-📓 Google Colab Notebook
-
-👩‍💻 Contributors
-
-Majd Bdour
-
-Furat Al-Jarrah
-
-✨ Future Work: Try Random Forest, XGBoost, and geospatial modeling for better accuracy.
----
-## 📑 Full Report
-👉 [Read the detailed analysis here](./docs/README.md)
-
 
 
 
