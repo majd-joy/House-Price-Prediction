@@ -5,9 +5,7 @@ This project analyzes the California Housing Prices dataset (from Kaggle) and bu
 
 The dataset contains census data from California, including geographic coordinates, property characteristics, and demographic information. Our goal was to preprocess the data, engineer features, and evaluate model performance.
 
-📂 Dataset
-
-Source: Kaggle – California Housing Prices
+📂 Dataset Source: Kaggle – California Housing Prices
 
 Size: 20,640 entries (20,433 valid for total_bedrooms)
 
@@ -82,12 +80,6 @@ Median Income contributes +$56,338 per unit to housing value.
 Longitude & Latitude negatively influence housing values (regional effects).
 
 Bedrooms add value, while higher population density reduces it.
-
-🎥 Demo & Notebook
-
-📹 YouTube Presentation
-
-📓 Google Colab Notebook
 
 👩‍💻 Contributors
 
